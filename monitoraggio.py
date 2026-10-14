@@ -7,3 +7,8 @@ aeromobili = [
 
 def filtra_controlli_non_validi(lista):
     return [aero for aero in lista if not aero["controlli_ok"]]
+
+#ciao 
+
+def filtra_oltre_soglia(lista, soglia):
+    return [aero for aero in lista if aero["ore_volo"] > soglia]
