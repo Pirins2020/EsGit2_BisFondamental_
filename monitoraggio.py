@@ -1,10 +1,12 @@
 SOGLIA_ORE = 1000
 
 aeromobili = [
+
     {"codice": "I-ABC", "modello": "Boeing 747", "ore_volo": 1240, "controlli_ok": True},
     {"codice": "I-DEF", "modello": "F-16", "ore_volo": 850, "controlli_ok": False},
     {"codice": "I-GHI", "modello": "Messerschmitt Me262", "ore_volo": 1500, "controlli_ok": False},
     {"codice": "I-JKL", "modello": "Mustang p-51", "ore_volo": 450, "controlli_ok": True}
+
 ]
 
 def stampa_riepilogo(lista):
